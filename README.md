@@ -106,10 +106,6 @@ let str6 = "abc";
 let newStr6 = str6.splice(5, 1, "x");
 console.log(newStr6); // Outputs: abc
 
-// Negative delete count
-let str7 = "xyz";
-let newStr7 = str7.splice(1, -1, "w");
-console.log(newStr7); // Outputs: xyz
 ```
 
 
